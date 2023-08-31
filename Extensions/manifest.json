@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Coding Timer",
+  "version": "1.0",
+  "description": "A coding timer extension",
+  "permissions": [],
+  "action": {
+    "default_popup": "popup.html"
+  }  
+}

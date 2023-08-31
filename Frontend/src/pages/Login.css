@@ -1,0 +1,186 @@
+body 
+{
+  font-family:sans-serif; 
+  
+  background-image: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9naW58ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+
+}
+
+
+form1 h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-decoration-color: white;
+   
+}
+
+
+form1{
+  display:flex;
+  flex-direction: column;
+  height: 430px;
+    width:370px;
+    margin:auto;
+    /* color:black; */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 10px;
+    border: 1px solid rgba(214, 231, 241, 0.125);
+    box-shadow: inset -5px,-5px rgb(0, 0, 0,0.5);
+    padding: 35px 30px;
+    color: white;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+input[type=email], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+    background-color: rgba(250, 230, 230, 0.5);
+    box-shadow: inset -5px,-5px rgb(0, 0, 0,0.5);
+
+  }
+
+button {
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headingsContainer{
+    text-align: center;
+}
+
+.headingsContainer p{
+    color: rgb(224, 175, 175);
+    
+}
+.mainContainer{
+    padding: 16px;
+    color: rgb(255, 255, 255);
+}
+
+
+ .subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+ .subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+} 
+
+span.forgotpsd a {
+    float: right;
+    color: whitesmoke;
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    /* color: rgb(74, 146, 235); */
+    color: black;
+    background-color: rgb(0,0,0,0.5);
+    box-shadow: inset -5px,-5px rgb(0, 0, 0,0.5);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+  .row 
+  {
+    
+    padding: 50px 30 px;
+    padding-left:70 px ;
+    padding-top: 60px;
+    margin: auto;
+    }
+    .row h1{
+      text-align: center;
+      
+
+    }
+    
+   .but
+   {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+
+    background-color: rgba(0, 0, 0,0.5);
+    
+   }
+   .but2
+   {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+
+    background-color: rgba(0, 0, 0,0.5);
+    
+   }
+   /* .but:hover{
+    cursor:pointer;
+    background-color: rgba(255, 255,255, 0.1);
+    color:white;
+
+   } */
+   ::placeholder{
+    color: white;
+    opacity:0.7;
+   }
+
+   .form form-group{
+    margin: auto;
+    color: white;
+   }
+
+   
+   .container mt-4
+   {
+    background-color: rgba(0, 0, 0,0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0,0.5);
+    padding: 40px 40px;
+    width: 400px;
+
+   }
+  
+
+ 
+
+  /* Media queries for the responsiveness of the page */
+  /* @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  } */
